@@ -54,6 +54,8 @@
 	  <PackageReference Include="Plugin.InAppBilling" Version="6.7.0" />
 	  <PackageReference Include="Plugin.Maui.Audio" Version="1.0.0" />
 	  <PackageReference Include="Plugin.StoreReview" Version="5.0.0-beta" />
+	  <PackageReference Include="SharpKml.Core" Version="6.0.0" />
+	  <PackageReference Include="Sylvan.Data.Csv" Version="1.2.7" />
 	</ItemGroup>
 
 	<ItemGroup>
