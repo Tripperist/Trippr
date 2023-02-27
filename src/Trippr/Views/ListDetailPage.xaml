@@ -9,12 +9,24 @@
 		<CollectionView ItemsSource="{Binding Items}" RemainingItemsThreshold="10" RemainingItemsThresholdReachedCommand="{Binding LoadMoreCommand}">
 			<CollectionView.ItemTemplate>
 				<DataTemplate x:DataType="m:PointOfInterest">
-					<Frame Margin="4" Padding="12">
-						<Frame.GestureRecognizers>
-							<TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:ListDetailViewModel}}, Path=GoToDetailsCommand}" CommandParameter="{Binding .}" />
-						</Frame.GestureRecognizers>
-						<Label Text="{Binding Name}" FontSize="Large" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Black}}" />
-					</Frame>
+                    <Grid Padding="5">
+                        <Frame HeightRequest="125" >
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:ListDetailViewModel}}, Path=GoToDetailsCommand}" CommandParameter="{Binding .}" />
+                            </Frame.GestureRecognizers>
+                            <Grid  ColumnDefinitions="75,*">
+                                <Label Padding="5" TextColor="Black" FontAttributes="Bold" Text="{Binding Distance, StringFormat='{0:F2} Miles'}" />
+                                <StackLayout
+                                    Grid.Column="1"
+                                    Padding="5"
+                                    VerticalOptions="StartAndExpand">
+                                    <Label TextColor="Black" FontAttributes="Bold" Text="{Binding Name}" />
+                                    <Label TextColor="Black" Text="{Binding Description}" />
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+                    </Grid>
+
 				</DataTemplate>
 			</CollectionView.ItemTemplate>
 		</CollectionView>

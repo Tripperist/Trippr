@@ -6,8 +6,45 @@
 			 x:DataType="vm:ListDetailDetailViewModel">
 	<ScrollView>
 		<VerticalStackLayout Margin="12">
-			<Label Text="{Binding Item.Name}" FontSize="Header" />
-			<Label Text="{Binding Item.Description}" FontSize="Default" />
-		</VerticalStackLayout>
+            <Grid ColumnDefinitions="*,Auto,*" RowDefinitions="160, Auto">
+                <BoxView
+                    Grid.ColumnSpan="3"
+                    Background="{StaticResource Primary}"
+                    HeightRequest="160"
+                    HorizontalOptions="FillAndExpand" />
+                <Frame
+                    Grid.RowSpan="2"
+                    Grid.Column="1"
+                    Margin="0, 80, 0, 0"
+                    HeightRequest="160"
+                    WidthRequest="160"
+                    HorizontalOptions="Center"
+                    Padding="0"
+                    IsClippedToBounds="True"
+                    CornerRadius="80"
+                    BackgroundColor="Bisque">
+                    <Label Text="{Binding Item.Distance, StringFormat='{0:F2}'}"  FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center"/>
+                </Frame>
+            </Grid>
+
+            <Label Text="{Binding Item.Description}" Padding="20" HorizontalTextAlignment="Center"/>
+            <Label HorizontalTextAlignment="Center">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Label.GestureRecognizers>
+
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="For more information follow " />
+                        <Span Text="this link"
+                  TextColor="Blue"
+                  TextDecorations="Underline">
+                        </Span>
+                        <Span Text="." />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </VerticalStackLayout>
+        
 	</ScrollView>
 </ContentPage>

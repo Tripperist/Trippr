@@ -33,12 +33,16 @@ public partial class ListDetailViewModel : BaseViewModel
 	[RelayCommand]
 	public async Task LoadMore()
 	{
+		/*
+		 * This does nothing unless we need to load more
+		
 		var items = await dataService.GetItems(25.0d);
 
 		foreach (var item in items)
 		{
 			Items.Add(item);
 		}
+		*/
 	}
 
 	public async Task LoadDataAsync()

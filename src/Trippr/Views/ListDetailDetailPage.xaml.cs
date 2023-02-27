@@ -7,4 +7,9 @@ public partial class ListDetailDetailPage : ContentPage
 		InitializeComponent();
 		BindingContext = viewModel;
 	}
+
+    private async void TapGestureRecognizer_Tapped(object sender, EventArgs e) {
+        var pointOfInterest = ((VisualElement)sender).BindingContext as ListDetailDetailViewModel;
+        await Launcher.OpenAsync(pointOfInterest.Item.Link);
+    }
 }
