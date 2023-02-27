@@ -16,3 +16,6 @@ global using System.Globalization;
 global using System.Runtime.CompilerServices;
 global using System.Text.Json;
 global using System.Threading.Tasks;
+global using SharpKml.Dom;
+global using SharpKml.Engine;
+global using Sylvan.Data.Csv;

@@ -4,5 +4,5 @@
 public partial class ListDetailDetailViewModel : BaseViewModel
 {
 	[ObservableProperty]
-	SampleItem item;
+	PointOfInterest item;
 }

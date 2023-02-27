@@ -1,0 +1,1848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Dallas Route 66 Triangle</name>
+    <description/>
+    <Style id="icon-1577-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1577-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1577-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1577-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1577-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1577-F9A825-nodesc-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1577-F9A825-nodesc-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1577-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1577-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1577-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1578-F9A825-nodesc-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1578-F9A825-nodesc-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1578-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1578-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1578-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1602-9C27B0-nodesc-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1602-9C27B0-nodesc-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1602-9C27B0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1602-9C27B0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1602-9C27B0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1611-0097A7-nodesc-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1611-0097A7-nodesc-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1611-0097A7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1611-0097A7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1611-0097A7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1611-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1611-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1611-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1611-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1611-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1611-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1611-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1611-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1611-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1611-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1611-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1611-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1611-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1611-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1611-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1611-FF5252-nodesc-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1611-FF5252-nodesc-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1611-FF5252-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1611-FF5252-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1611-FF5252-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1637-F9A825-nodesc-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1637-F9A825-nodesc-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1637-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1637-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1637-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1741-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1741-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1741-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1741-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1741-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Stops</name>
+      <Placemark>
+        <name>1890s Alien Gravesite</name>
+        <description><![CDATA[https://www.youtube.com/watch?v=IM_qyS4n9d4<br>https://www.atlasobscura.com/places/1800-s-alien-gravesite<br>https://www.texasalmanac.com/articles/when-airships-invaded-texas<br>https://www.readex.com/blog/ufo-fever-americas-historical-newspapers-mysterious-airships-1896-97<br>https://www.imdb.com/title/tt1317986/plotsummary]]></description>
+        <styleUrl>#icon-1611-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -97.500667,33.0525408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Lost Arm of J Stewart</name>
+        <description>https://www.atlasobscura.com/places/the-lost-arm-of-f-stewart</description>
+        <styleUrl>#icon-1611-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -97.6971905,33.1528674,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[World's Largest Bowie Knife]]></name>
+        <styleUrl>#icon-1611-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8321757,33.5472458,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dinosaur Parade</name>
+        <styleUrl>#icon-1611-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.196645,33.8004294,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Largest Shovel in Texas</name>
+        <styleUrl>#icon-1611-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.4895657,33.8386994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1807 Cedar Ave</name>
+        <styleUrl>#icon-1602-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.5324918,33.8986966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Highlander Public House</name>
+        <styleUrl>#icon-1577-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.4925632,33.9121087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The World's Littlest Skyscraper]]></name>
+        <styleUrl>#icon-1611-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.4897491,33.9144505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ohio Bridge</name>
+        <styleUrl>#icon-1611-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.4960044,33.9218071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wichita Falls</name>
+        <styleUrl>#icon-1611-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.5066252,33.9132827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Historical Steam Locomotive</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -100.2076758,34.4216692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Top Notch Texas BBQ</name>
+        <styleUrl>#icon-1577-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -100.2024138,34.4261916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ozark Trail Marker</name>
+        <description>http://www.texasescapes.com/TexasGhostTowns/Tampico-Texas.htm</description>
+        <styleUrl>#icon-1611-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -100.7786433,34.4729077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Goldsby's Philips 66]]></name>
+        <description>https://www.pinterest.com/voodoosue1931/goldsbys-1928-phillips-66/</description>
+        <styleUrl>#icon-1611-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -100.8951806,34.3929313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ozymandias of The Plains</name>
+        <description>https://www.atlasobscura.com/places/ozymandias-plains</description>
+        <styleUrl>#icon-1611-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -101.9091428,35.1016962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Combine City</name>
+        <description>https://www.atlasobscura.com/places/combine-city</description>
+        <styleUrl>#icon-1611-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -101.7665911,35.0916246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cadillac Ranch</name>
+        <description>https://en.wikipedia.org/wiki/Cadillac_Ranch</description>
+        <styleUrl>#icon-1611-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -101.9870486,35.1872366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2nd Amendment Cowboy</name>
+        <description>https://www.atlasobscura.com/places/the-second-amendment-cowboy</description>
+        <styleUrl>#icon-1611-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -101.9740279,35.1863318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Floating Mesa, Goat Mountain</name>
+        <styleUrl>#icon-1611-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -102.0510746,35.2680946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1701 S Monroe St</name>
+        <styleUrl>#icon-1602-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.8454942,35.1961721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Young Sushi "Rocks!"]]></name>
+        <styleUrl>#icon-1577-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.839271,35.203893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fiesta FoodsTX</name>
+        <styleUrl>#icon-1578-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.8257543,35.2017435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leftwoods</name>
+        <styleUrl>#icon-1637-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.8657345,35.2112667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Patriot Peace Garden</name>
+        <description>https://www.destinationwest.org/home-page/stoner-patriot-peace-garden-of-all-faiths-route-66-panhandle-texas#/</description>
+        <styleUrl>#icon-1611-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -101.5589637,35.2214272,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VW Slug Bug Ranch</name>
+        <description>https://www.atlasobscura.com/places/vw-slug-bug-ranch</description>
+        <styleUrl>#icon-1611-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -101.3837703,35.2155637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Six-Shooter Smokers</name>
+        <description>https://www.roadsideamerica.com/tip/29186</description>
+        <styleUrl>#icon-1611-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -101.3823705,35.2201915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leaning Tower of Texas</name>
+        <description>https://www.destinationwest.org/home-page/stoner-patriot-peace-garden-of-all-faiths-route-66-panhandle-texas#/</description>
+        <styleUrl>#icon-1611-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -101.0819043,35.1981144,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Route 66 Fuel Station</name>
+        <description>http://route66times.com/l/tx/alanreed-super-station.htm</description>
+        <styleUrl>#icon-1611-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -100.7346157,35.2122459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restored 1929 Route 66 Gas Station</name>
+        <description>https://www.roadsideamerica.com/story/26409</description>
+        <styleUrl>#icon-1611-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -100.6020417,35.2326444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Conoco Tower Station & U-Drop Inn Cafe]]></name>
+        <description>https://www.nps.gov/nr/travel/route66/tower_station_u-drop-inn_cafe_shamrock.html</description>
+        <styleUrl>#icon-1611-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -100.2486543,35.2266617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>One Room Jail</name>
+        <description>https://www.travelok.com/listings/view.profile/id.28033</description>
+        <styleUrl>#icon-1611-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -99.9887114,35.2200789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Timber Creek Bridge Route 66</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -99.5803022,35.344545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Rt 66 and Transportation Museum</name>
+        <description>https://www.elkcity.com/city-hall/departments/museums/national-route-66-museum/</description>
+        <styleUrl>#icon-1611-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -99.4368418,35.4119992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Former Cotton Boll Motel</name>
+        <description>https://www.oklahoman.com/story/news/1996/12/15/former-canute-motel-on-old-route-66-now-home-for-family/62330685007/</description>
+        <styleUrl>#icon-1611-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -99.2787646,35.4221913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oklahoma Route 66 Museum</name>
+        <description>https://www.okhistory.org/sites/route66</description>
+        <styleUrl>#icon-1611-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -98.9865506,35.5069047,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Sign on 66</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.7930147,35.5227683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wind Turbine Blade Display</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.7137682,35.5250834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Stafford Air & Space Museum]]></name>
+        <styleUrl>#icon-1611-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.670059,35.54452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lucille's Historic Highway Gas Station]]></name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.5883814,35.5369921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oklahoma Federal Aid Project No. 164-H (1933)</name>
+        <description>https://www.electricroute66.com/2022/03/electric-route-66-dashcam-oklahoma-pony.html</description>
+        <styleUrl>#icon-1611-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -98.3212829,35.5412059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muffler Men Mural</name>
+        <description><![CDATA[https://www.johncerneymurals.com/projects.html<br>https://sillyamerica.com/blog/muffler-men-mural-route-66-oklahoma/]]></description>
+        <styleUrl>#icon-1611-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -98.08409,35.5369339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Reno Mother Road Monument</name>
+        <description>https://www.travelok.com/listings/view.profile/id.26744</description>
+        <styleUrl>#icon-1611-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -97.9546541,35.5316148,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Eischen's Bar]]></name>
+        <description>https://roadfood.com/restaurants/eischens-bar/</description>
+        <styleUrl>#icon-1577-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -97.975557,35.7253536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21c Museum Hotel Oklahoma City</name>
+        <styleUrl>#icon-1602-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5277841,35.4675009,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pops 66</name>
+        <styleUrl>#icon-1577-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.33548,35.658277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arcadia Round Barn</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.3259694,35.6623722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Historic 66 National Register</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.2914792,35.6597855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Historic Route 66 Gas Station</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.2738082,35.6601669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oklahoma Land Run Boundary Marker</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.248348,35.6638792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seaba Station Motorcycle Museum</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.0002693,35.6865349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Philips 66 Gas Station</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.880966,35.7035134,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stroud UFO</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.6651699,35.7498027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Highway 66</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.5366809,35.802301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bristow Train Depot and Museum</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.3897876,35.8333121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bristow Chrysler Plymouth</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.3879991,35.8357485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sapulpa Crossroads</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.1125908,35.9990276,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Railroad Underpass on Ozark Trail</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.1775386,35.9929735,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rock Creek Bridge</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.1365602,35.9937473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Route 66 Mural</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.1353206,35.9941402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Courtyard by Marriott Tulsa Central</name>
+        <styleUrl>#icon-1602-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.8929364,36.1139293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Bros. Houligan</name>
+        <styleUrl>#icon-1577-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.922809,36.0912553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Whale of Catoosa</name>
+        <styleUrl>#icon-1611-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.7329257,36.1937732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Driller Statue</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.9311081,36.1337734,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Praying Hands</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.956614,36.0520373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Hog's Barbeque]]></name>
+        <styleUrl>#icon-1577-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.6716744,35.2399557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Turner Falls Overlook</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.1459902,34.4269426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Concrete igloo</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.1397239,34.3972211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Best Western Plus Dfw Airport West Euless</name>
+        <styleUrl>#icon-1602-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.0890715,32.8369099,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bedford Ice House</name>
+        <styleUrl>#icon-1577-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.1312561,32.835112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hertz Car Rental - Dallas - Ross Avenue HLE</name>
+        <styleUrl>#icon-1741-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.803509,32.783159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cross of our Lord Jesus Christ Ministries</name>
+        <styleUrl>#icon-1611-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.1234147,35.209829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paradise Cemetery, Paradise, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.695804,33.1530468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[World's Largest Bowie Knife, East Wise Street, Bowie, TX, USA]]></name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.8325709,33.5471634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dinosaur Parade, Graham Street, Henrietta, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.1967564,33.8002411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Largest Shovel in Texas, U.S. 281, Wichita Falls, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.4894743,33.8388079,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1807 Cedar Avenue, Wichita Falls, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.5324904,33.8987872,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Highlander Public House</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.4923204,33.9122438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The World's Littlest Skyscraper, La Salle, Wichita Falls, TX, USA]]></name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.4898077,33.9143439,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ohio Bridge, Bridge Street, Wichita Falls, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.4962793,33.922214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1807 Cedar Avenue, Wichita Falls, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.5324904,33.8987872,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phillips 66</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.5191372,33.9027785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hobo Coffee and Ice Co., Seymour Highway, Wichita Falls, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.5333134,33.9067393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Historical Steam Locomotive, Childress, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -100.2075513,34.4219062,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Top Notch Texas BBQ, Avenue F Northeast, Childress, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -100.202235,34.4261277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ozark Trail Marker, Turkey, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -100.7786518,34.47286,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Goldsby's Philips 66, Turkey, TX, USA]]></name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -100.89518,34.3928188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ozymandias of The Plains, West Sundown Lane, Amarillo, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.9098634,35.1017195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Combine City</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.7665911,35.0914091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cadillac Ranch, Interstate 40 Frontage Road, Amarillo, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.9869776,35.1891467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cadillac Ranch, Interstate 40 Frontage Road, Amarillo, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.9869776,35.1891467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2nd Amendment Cowboy, Hope Road, Amarillo, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.9737893,35.1863485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1701 South Monroe Street, Amarillo, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.8454641,35.1963193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Young Sushi "Rocks!", Southwest 10th Avenue, Amarillo, TX, USA]]></name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.8390693,35.2038645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fiesta FoodsTX, Southeast 10th Avenue, Amarillo, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.8257251,35.2018632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leftwoods, Southwest 6th Avenue, Amarillo, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.8659973,35.2113008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1701 South Monroe Street, Amarillo, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.8454641,35.1963193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Patriot Peace Garden, Interstate 40 Frontage Road, Panhandle, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.559606,35.2210862,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VW Slug Bug Ranch</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.3835397,35.2156415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Six-Shooter Smokers, Texas 207, Panhandle, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.3825537,35.2201893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cross of our Lord Jesus Christ Ministries</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.1234074,35.2090359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leaning Tower of Texas, Groom, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -101.0822305,35.1976981,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Route 66 Fuel Station, Alanreed, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -100.7346159,35.212415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restored 1929 Route 66 Gas Station, First Street, McLean, TX, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -100.6022196,35.2326845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Conoco Tower Station & U-Drop Inn Cafe, U.S. Route 66, Shamrock, TX, USA]]></name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -100.248455,35.226665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>One Room Jail, Texola, OK, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -99.9888949,35.2200794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>One Room Jail, Texola, OK, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -99.9888949,35.2200794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Timber Creek Bridge Route 66, Sayre, OK, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -99.5803164,35.3445693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Rt 66 and Transportation Museum, West 3rd Street, Elk City, OK, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -99.4368304,35.4116625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Former Cotton Boll Motel</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -99.2787649,35.4219635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oklahoma Route 66 Museum, West Gary Boulevard, Clinton, OK, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.9865854,35.5062888,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Sign on 66, U.S. Route 66, Weatherford, OK, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.7930157,35.522635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wind Turbine Blade Display</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.7137686,35.5249613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lucille's Historic Highway Gas Station]]></name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.5883806,35.5368659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oklahoma Federal Aid Project No. 164-H (1933), Hinton, OK, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.3213134,35.5412354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muffler Men Mural</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.08409,35.5369368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muffler Men Mural</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.08409,35.5369368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Reno Mother Road Monument</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.9549234,35.5316716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Eischen's Bar]]></name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.9755607,35.7251883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21c Museum Hotel Oklahoma City, West Main Street, Oklahoma City, OK, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5277814,35.4678553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pops 66, U.S. Route 66, Arcadia, OK, USA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.33548,35.6585037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arcadia Round Barn</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.3258446,35.6621464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Historic 66 National Register</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.2914791,35.6597689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Historic Route 66 Gas Station</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.2737992,35.6601121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oklahoma Land Run Boundary Marker</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.2484474,35.6639336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oklahoma Land Run Boundary Marker</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.2484474,35.6639336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seaba Station Motorcycle Museum</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.0000067,35.6863483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Philips 66 Gas Station</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.8807871,35.7035149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stroud UFO</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.6651664,35.7501629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bristow Train Depot and Museum</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.3897859,35.8328294,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bristow Chrysler Plymouth</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.3879983,35.8358165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sapulpa Crossroads</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.1129056,35.9990176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Railroad Underpass on Ozark Trail</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.1775359,35.9929752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rock Creek Bridge</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.1365647,35.9937341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Route 66 Mural</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.1354083,35.9935473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Route 66 Mural</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.1354083,35.9935473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Courtyard by Marriott Tulsa Central</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.8928354,36.1141929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Bros. Houligan</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.9226482,36.0913246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Driller Statue</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.9310135,36.1338051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Praying Hands</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.9565901,36.0518338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stroud UFO</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.6651664,35.7501629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Hog's Barbeque]]></name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.671681,35.2400662,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Turner Falls Overlook</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.1454713,34.4271534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Concrete igloo</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.1398175,34.3973189,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Best Western Plus Dfw Airport West Euless</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.0892641,32.8369053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Best Western Plus Dfw Airport West Euless</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.0892641,32.8369053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bedford Ice House</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -97.1314395,32.8353854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hertz Car Rental - Dallas - Ross Avenue HLE</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.8036319,32.7832596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
