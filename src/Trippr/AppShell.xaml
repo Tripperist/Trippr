@@ -8,11 +8,7 @@
 
 	<TabBar>
 		<ShellContent
-			Title="Main"
-			Icon="iconblank.png"
-			ContentTemplate="{DataTemplate views:MainPage}" />
-		<ShellContent
-			Title="ListDetail"
+			Title="Places"
 			Icon="iconlistdetail.png"
 			ContentTemplate="{DataTemplate views:ListDetailPage}" />
 		<ShellContent
@@ -23,6 +19,10 @@
 			Title="WebView"
 			Icon="iconwebview.png"
 			ContentTemplate="{DataTemplate views:WebViewPage}" />
+		<ShellContent
+			Title="Main"
+			Icon="iconblank.png"
+			ContentTemplate="{DataTemplate views:MainPage}" />
 		<ShellContent
 			Title="Localization"
 			Icon="iconlocalization.png"
