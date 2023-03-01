@@ -44,6 +44,12 @@
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
+            <Button
+				Text="Map"
+				SemanticProperties.Hint="View on a Map"
+				Command="{Binding MapClickedCommand}"
+				HorizontalOptions="Center" />
+
         </VerticalStackLayout>
         
 	</ScrollView>

@@ -1,5 +1,8 @@
 ﻿namespace Trippr.Services;
 
+using SharpKml.Dom;
+ using SharpKml.Engine;
+
 public class PointOfInterestService
 {
     public async Task<IEnumerable<PointOfInterest>> GetItems(double distanceFilter)

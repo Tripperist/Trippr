@@ -5,5 +5,5 @@
 			 x:Class="Trippr.Views.MapPage"
 			 x:DataType="vm:MapViewModel">
 
-	<Map x:Name="TheMap" />
+	<Map x:Name="map"  IsShowingUser="True" />
 </ContentPage>
