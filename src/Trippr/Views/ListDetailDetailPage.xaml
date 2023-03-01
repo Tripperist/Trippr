@@ -23,16 +23,12 @@
                     IsClippedToBounds="True"
                     CornerRadius="80"
                     BackgroundColor="Bisque">
-                    <Label Text="{Binding Item.Distance, StringFormat='{0:F2}'}"  FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Label Text="{Binding PointOfInterest.Distance, StringFormat='{0:F2}'}"  FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center"/>
                 </Frame>
             </Grid>
 
-            <Label Text="{Binding Item.Description}" Padding="20" HorizontalTextAlignment="Center"/>
+            <Label Text="{Binding PointOfInterest.Description}" Padding="20" HorizontalTextAlignment="Center"/>
             <Label HorizontalTextAlignment="Center">
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
-                </Label.GestureRecognizers>
-
                 <Label.FormattedText>
                     <FormattedString>
                         <Span Text="For more information follow " />

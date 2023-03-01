@@ -6,7 +6,7 @@
 			 x:Class="Trippr.Views.ListDetailPage"
 			 x:DataType="vm:ListDetailViewModel">
 	<RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshingCommand}">
-		<CollectionView ItemsSource="{Binding Items}" RemainingItemsThreshold="10" RemainingItemsThresholdReachedCommand="{Binding LoadMoreCommand}">
+		<CollectionView ItemsSource="{Binding PointOfInterests}" >
 			<CollectionView.ItemTemplate>
 				<DataTemplate x:DataType="m:PointOfInterest">
                     <Grid Padding="5">

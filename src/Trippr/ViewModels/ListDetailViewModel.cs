@@ -8,7 +8,7 @@ public partial class ListDetailViewModel : BaseViewModel
 	bool isRefreshing;
 
 	[ObservableProperty]
-	ObservableCollection<PointOfInterest> items;
+	ObservableCollection<PointOfInterest> pointOfInterests;
 
 	public ListDetailViewModel(PointOfInterestService service)
 	{
@@ -30,32 +30,17 @@ public partial class ListDetailViewModel : BaseViewModel
 		}
 	}
 
-	[RelayCommand]
-	public async Task LoadMore()
-	{
-		/*
-		 * This does nothing unless we need to load more
-		
-		var items = await dataService.GetItems(25.0d);
-
-		foreach (var item in items)
-		{
-			Items.Add(item);
-		}
-		*/
-	}
-
 	public async Task LoadDataAsync()
 	{
-		Items = new ObservableCollection<PointOfInterest>(await dataService.GetItems(25.0d));
+        PointOfInterests = new ObservableCollection<PointOfInterest>(await dataService.GetItems(25.0d));
 	}
 
 	[RelayCommand]
-	private async void GoToDetails(PointOfInterest item)
+	private async void GoToDetails(PointOfInterest pointOfInterest)
 	{
 		await Shell.Current.GoToAsync(nameof(ListDetailDetailPage), true, new Dictionary<string, object>
 		{
-			{ "Item", item }
+			{ "PointOfInterest", pointOfInterest }
 		});
 	}
 }

@@ -1,14 +1,23 @@
 ﻿namespace Trippr.ViewModels;
 
-[QueryProperty(nameof(Item), "Item")]
+[QueryProperty(nameof(PointOfInterest), nameof(PointOfInterest))]
 public partial class ListDetailDetailViewModel : BaseViewModel
 {
 	[ObservableProperty]
-	PointOfInterest item;
+	PointOfInterest pointOfInterest;
+
+    [RelayCommand]
+    private async void OpenLink() 
+    {
+            await Launcher.OpenAsync(pointOfInterest.Link);
+    }
 
     [RelayCommand]
     private async void MapClicked() 
     {
-         await Shell.Current.GoToAsync(nameof(MapPage));
+        await Shell.Current.GoToAsync(nameof(MapPage),
+            new Dictionary<string, object> {
+                ["PointOfInterest"] = pointOfInterest
+            }) ;
     }
 }
