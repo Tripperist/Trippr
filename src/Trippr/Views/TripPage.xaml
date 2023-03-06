@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-			 xmlns:vm="clr-namespace:Trippr.ViewModels"
-			 xmlns:m="clr-namespace:Trippr.Models"
-			 x:Class="Trippr.Views.ListDetailPage"
-			 x:DataType="vm:ListDetailViewModel"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:vm="clr-namespace:Trippr.ViewModels"
+            xmlns:m="clr-namespace:Trippr.Models"
+            x:Class="Trippr.Views.TripPage"
+            x:DataType="vm:TripViewModel"
+            xmlns:local="clr-namespace:Trippr.Views"
              
              Shell.NavBarIsVisible="False">
-	<RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshingCommand}">
-		<CollectionView ItemsSource="{Binding PointOfInterests}" >
-			<CollectionView.ItemTemplate>
-				<DataTemplate x:DataType="m:PointOfInterest">
+    <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshingCommand}">
+        <CollectionView ItemsSource="{Binding Trips}" >
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="m:Trip">
                     <Grid Padding="5">
                         <Frame HeightRequest="125" >
                             <Frame.GestureRecognizers>
@@ -29,8 +30,8 @@
                         </Frame>
                     </Grid>
 
-				</DataTemplate>
-			</CollectionView.ItemTemplate>
-		</CollectionView>
-	</RefreshView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </RefreshView>
 </ContentPage>

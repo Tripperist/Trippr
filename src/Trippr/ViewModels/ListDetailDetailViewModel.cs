@@ -9,7 +9,7 @@ public partial class ListDetailDetailViewModel : BaseViewModel
     [RelayCommand]
     private async void OpenLink() 
     {
-            await Launcher.OpenAsync(pointOfInterest.Link);
+            await Launcher.OpenAsync(PointOfInterest.Link);
     }
 
     [RelayCommand]
@@ -17,7 +17,7 @@ public partial class ListDetailDetailViewModel : BaseViewModel
     {
         await Shell.Current.GoToAsync(nameof(MapPage),
             new Dictionary<string, object> {
-                ["PointOfInterest"] = pointOfInterest
+                ["PointOfInterest"] = PointOfInterest
             }) ;
     }
 }

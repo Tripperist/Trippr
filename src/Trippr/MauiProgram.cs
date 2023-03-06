@@ -18,32 +18,33 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-		//builder.Services.AddSingleton<MainViewModel>();
-
-		//builder.Services.AddSingleton<MainPage>();
 
         builder.Services.AddTransient<PointOfInterestService>();
+		builder.Services.AddTransient<TripDataService>();
+
         builder.Services.AddTransient<ListDetailDetailViewModel>();
 		builder.Services.AddTransient<ListDetailDetailPage>();
 
 		builder.Services.AddSingleton<ListDetailViewModel>();
-
 		builder.Services.AddSingleton<ListDetailPage>();
 
 		builder.Services.AddSingleton<MapViewModel>();
-
 		builder.Services.AddSingleton<MapPage>();
 
-		builder.Services.AddSingleton<WebViewViewModel>();
+		builder.Services.AddSingleton<TripViewModel>();
+		builder.Services.AddSingleton<TripPage>();
 
+		builder.Services.AddSingleton<WebViewViewModel>();
 		builder.Services.AddSingleton<WebViewPage>();
 
-		builder.Services.AddSingleton<LocalizationViewModel>();
+        builder.Services.AddSingleton<MainViewModel>();
+        builder.Services.AddSingleton<MainPage>();
 
+
+        builder.Services.AddSingleton<LocalizationViewModel>();
 		builder.Services.AddSingleton<LocalizationPage>();
 
 		builder.Services.AddSingleton<SampleViewModel>();
-
 		builder.Services.AddSingleton<SamplePage>();
 
 		// TODO: Add App Center secrets

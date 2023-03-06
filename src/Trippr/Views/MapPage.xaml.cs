@@ -5,6 +5,8 @@ using Microsoft.Maui.Maps;
 
 public partial class MapPage : ContentPage
 {
+    PointOfInterest pointOfInterest;
+
 	public MapPage(MapViewModel viewModel)
 	{
 		InitializeComponent();
@@ -21,10 +23,12 @@ public partial class MapPage : ContentPage
     protected override void OnNavigatedTo(NavigatedToEventArgs args) 
 	{
         base.OnNavigatedTo(args);
-
-        var location = new Location(36.1666, -115.2681);
+        MapViewModel vm = (MapViewModel)BindingContext;
+        pointOfInterest = vm.PointOfInterest;
+        var location = pointOfInterest.Placemark.Location;
         map.Pins.Add(new Pin {
-            Label = "Tripperist HQ",
+            Label = $"{pointOfInterest.Name}",
+            Address = $"{pointOfInterest.Description}",
             Type = PinType.Place,
             Location = location
         });
@@ -32,14 +36,5 @@ public partial class MapPage : ContentPage
         var mapSpan = new MapSpan(location, 0.01, 0.01);
         map.MoveToRegion(mapSpan);
 
-        var circle = new Circle {
-            Center = location,
-            Radius = new Distance(250),
-            StrokeColor = Color.FromArgb("#88FF0000"),
-            StrokeWidth = 8,
-            FillColor = Color.FromArgb("#88FFC0CB")
-
-        };
-        map.MapElements.Add(circle);
     }
 }

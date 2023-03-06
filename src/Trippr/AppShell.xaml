@@ -16,9 +16,9 @@
 			Icon="iconmap.png"
 			ContentTemplate="{DataTemplate views:MapPage}" />
 		<ShellContent
-			Title="WebView"
+			Title="Trips"
 			Icon="iconwebview.png"
-			ContentTemplate="{DataTemplate views:WebViewPage}" />
+			ContentTemplate="{DataTemplate views:TripPage}" />
 		<ShellContent
 			Title="Main"
 			Icon="iconblank.png"

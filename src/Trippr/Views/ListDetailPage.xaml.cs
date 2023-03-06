@@ -2,19 +2,19 @@
 
 public partial class ListDetailPage : ContentPage
 {
-	ListDetailViewModel ViewModel;
+	private readonly ListDetailViewModel listDetailViewModel;
 
 	public ListDetailPage(ListDetailViewModel viewModel)
 	{
 		InitializeComponent();
-
-		BindingContext = ViewModel = viewModel;
+		BindingContext = viewModel;
+		listDetailViewModel = viewModel;
 	}
 
 	protected override async void OnNavigatedTo(NavigatedToEventArgs args)
 	{
 		base.OnNavigatedTo(args);
 
-		await ViewModel.LoadDataAsync();
+		await listDetailViewModel.LoadDataAsync();
 	}
 }
