@@ -24,6 +24,9 @@ public class TripDataService {
             KmlFile kmlFile = KmlFile.Load(stream);
             Kml kml = (Kml)kmlFile.Root;
 
+            var feature = kml.Feature;
+            var description = feature.Description;
+            
             List<PointOfInterest> pointsOfInterest = new List<PointOfInterest>();
 
             foreach (var kmlPlacemark in kml.Flatten().OfType<SharpKml.Dom.Placemark>()) {
