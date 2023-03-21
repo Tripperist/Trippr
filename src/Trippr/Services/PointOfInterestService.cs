@@ -34,9 +34,10 @@ public class PointOfInterestService
 
                 // Opportunity to filter out longer distance points.
                 var distance = Math.Round(location.CalculateDistance(placemark.Location, DistanceUnits.Miles), 2);
+                var descriptionText = (kmlPlacemark.Description == null) ? kmlPlacemark.Name : kmlPlacemark.Description.Text;
 
-                if(distance <= distanceFilter )
-                    pointsOfInterest.Add(new PointOfInterest(kmlPlacemark.Name, kmlPlacemark.Description.Text, distance, placemark));
+                if (distance <= distanceFilter )
+                    pointsOfInterest.Add(new PointOfInterest(kmlPlacemark.Name, descriptionText, distance, placemark));
             }
         }
 
@@ -45,7 +46,7 @@ public class PointOfInterestService
 
     public  static async Task<IEnumerable<PointOfInterest>> GetHmdbPointsOfInterest(Microsoft.Maui.Devices.Sensors.Location location, double distanceFilter)
     {
-        IList<string> statesList = new List<string> {"AZ", "CA", "OR", "NV", "OK", "TX", "WA" };
+        IList<string> statesList = new List<string> {"AZ", "CA", "NV", "OK", "OR", "TX", "WA" };
         List<PointOfInterest> pointsOfInterest = new();
 
         foreach (var state in statesList)
