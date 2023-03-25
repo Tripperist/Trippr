@@ -12,12 +12,13 @@ public class PointOfInterestService
         //return await PointOfInterestService.GetHmdbPointsOfInterest(location, distanceFilter);
 
         var pointsOfInterest = await PointOfInterestService.GetHmdbPointsOfInterest(location, distanceFilter);
-        return pointsOfInterest.Concat(await GetKmlPointsOfInterest(location, distanceFilter)).ToList();
+        var fullset =  pointsOfInterest.Concat(await GetKmlPointsOfInterest(location, distanceFilter));
+        return new List<PointOfInterest>(fullset.OrderBy(p => p.Distance));
     }
 
     public static async Task<IEnumerable<PointOfInterest>> GetKmlPointsOfInterest(Microsoft.Maui.Devices.Sensors.Location location, double distanceFilter)
     {
-        IList<string> tripsList = new List<string> { "2022.10.Roadtrip", "2023.03.Roadtrip" };
+        IList<string> tripsList = new List<string> { "2022.10.Roadtrip", "2023.03.MSYAUS" };
         List<PointOfInterest> pointsOfInterest = new();
 
         foreach (var trip in tripsList)
@@ -46,7 +47,8 @@ public class PointOfInterestService
 
     public  static async Task<IEnumerable<PointOfInterest>> GetHmdbPointsOfInterest(Microsoft.Maui.Devices.Sensors.Location location, double distanceFilter)
     {
-        IList<string> statesList = new List<string> {"AZ", "CA", "NV", "OK", "OR", "TX", "WA" };
+        //IList<string> statesList = new List<string> {"AZ", "CA", "LA", "NV", "OK", "OR", "TX", "WA" };
+        IList<string> statesList = new List<string> { "LA", "TX"};
         List<PointOfInterest> pointsOfInterest = new();
 
         foreach (var state in statesList)

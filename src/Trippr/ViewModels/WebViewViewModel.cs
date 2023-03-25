@@ -1,5 +1,6 @@
 ﻿namespace Trippr.ViewModels;
 
+[QueryProperty(nameof(PointOfInterest), nameof(PointOfInterest))]
 public partial class WebViewViewModel : BaseViewModel
 {
 	[ObservableProperty]
@@ -8,16 +9,20 @@ public partial class WebViewViewModel : BaseViewModel
 	[ObservableProperty]
 	public bool isLoading;
 
-	public WebViewViewModel()
+    [ObservableProperty]
+    PointOfInterest pointOfInterest;
+
+    public WebViewViewModel()
 	{
 		// TODO: Update the default URL
-		Source = "https://github.com/sponsors/mrlacey";
+		Source = "https://mikelor.github.io";
 		IsLoading = true;
 	}
 
 	[RelayCommand]
 	private async void WebViewNavigated(WebNavigatedEventArgs e)
 	{
+		Source = PointOfInterest.Link.ToString();
 		IsLoading = false;
 
 		if (e.Result != WebNavigationResult.Success)

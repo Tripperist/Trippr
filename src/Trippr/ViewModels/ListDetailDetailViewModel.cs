@@ -9,7 +9,17 @@ public partial class ListDetailDetailViewModel : BaseViewModel
     [RelayCommand]
     private async void OpenLink() 
     {
-            await Launcher.OpenAsync(PointOfInterest.Link);
+        UriBuilder newUri = new UriBuilder(PointOfInterest.Link.ToString());
+        newUri.Scheme = Uri.UriSchemeHttps;
+        newUri.Port = 443;
+        PointOfInterest.Link = newUri.Uri;
+        //await Launcher.OpenAsync(PointOfInterest.Link);
+        await Shell.Current.GoToAsync(nameof(WebViewPage),
+            new Dictionary<string, object>
+            {
+                ["PointOfInterest"] = PointOfInterest
+
+            });
     }
 
     [RelayCommand]

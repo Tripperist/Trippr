@@ -9,7 +9,7 @@ public class TripDataService {
     public async Task<IEnumerable<Trip>> GetItems(double distanceFilter) {
         Microsoft.Maui.Devices.Sensors.Location location = await Geolocation.GetLocationAsync();
 
-        IEnumerable<string> tripsList = new List<string> { "2022.10.Roadtrip", "2023.03.Roadtrip" };
+        IEnumerable<string> tripsList = new List<string> { "2022.10.Roadtrip", "2023.03.MSYAUS" };
         IEnumerable<Trip> trips = await GetKmlTrips(tripsList, location, distanceFilter);
         return trips;
     }

@@ -7,7 +7,7 @@
 			 x:Class="Trippr.Views.WebViewPage"
 			 x:DataType="vm:WebViewViewModel">
 	<Grid RowDefinitions="*,Auto">
-		<WebView x:Name="webview" Source="{Binding Source}">
+		<WebView x:Name="webview" Source="{Binding PointOfInterest.Link}">
 			<WebView.Behaviors>
 				<toolkit:EventToCommandBehavior
 					EventName="Navigated"

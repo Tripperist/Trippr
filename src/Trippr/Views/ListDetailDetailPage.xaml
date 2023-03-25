@@ -30,23 +30,19 @@
             </Grid>
 
             <Label Text="{Binding PointOfInterest.Description}" Padding="20" HorizontalTextAlignment="Center"/>
-            <Label HorizontalTextAlignment="Center">
-                <Label.FormattedText>
-                    <FormattedString>
-                        <Span Text="For more information follow " />
-                        <Span Text="this link"
-                  TextColor="Blue"
-                  TextDecorations="Underline">
-                        </Span>
-                        <Span Text="." />
-                    </FormattedString>
-                </Label.FormattedText>
-            </Label>
-            <Button
+            
+            <HorizontalStackLayout Grid.Row="1" HorizontalOptions="Center" Spacing="12">
+                <Button
+				Text="Open"
+				SemanticProperties.Hint="Open in Browser"
+				Command="{Binding OpenLinkCommand}"
+				HorizontalOptions="Center" />
+                <Button
 				Text="Map"
 				SemanticProperties.Hint="View on a Map"
 				Command="{Binding MapClickedCommand}"
 				HorizontalOptions="Center" />
+            </HorizontalStackLayout>
 
         </VerticalStackLayout>
         

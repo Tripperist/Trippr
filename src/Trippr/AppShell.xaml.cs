@@ -9,5 +9,8 @@ public partial class AppShell : Shell
 
 		// Experimenting with routing to MapPage from somewhere other than the TabBar
 		Routing.RegisterRoute(nameof(MapPage), typeof(MapPage));
-	}
+
+        // Experimenting with routing to MapPage from somewhere other than the TabBar
+        Routing.RegisterRoute(nameof(WebViewPage), typeof(WebViewPage));
+    }
 }
