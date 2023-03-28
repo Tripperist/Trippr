@@ -18,7 +18,7 @@ public partial class MapPage : ContentPage
 		// For a possible workaround, see https://github.com/CommunityToolkit/Maui/issues/605
 		Content = new Label() { Text = "Windows does not have a map control. 😢" };
 #endif
-	}
+    }
 
     protected override void OnNavigatedTo(NavigatedToEventArgs args) 
 	{
@@ -26,6 +26,16 @@ public partial class MapPage : ContentPage
         MapViewModel vm = (MapViewModel)BindingContext;
         pointOfInterest = vm.PointOfInterest;
         var location = pointOfInterest.Placemark.Location;
+
+
+#if WINDOWS
+        // Launch the Bing Maps app
+        // For more information see: https://learn.microsoft.com/en-us/windows/uwp/launch-resume/launch-maps-app
+        var uri = new Uri($"bingmaps:?collection=point.{location.Latitude}_{location.Longitude}_{Uri.EscapeUriString(pointOfInterest.Name)}&lvl=16");
+        var launcherOptions = new Windows.System.LauncherOptions();
+        launcherOptions.TargetApplicationPackageFamilyName = "Microsoft.WindowsMaps_8wekyb3d8bbwe";
+        var success = Windows.System.Launcher.LaunchUriAsync(uri, launcherOptions);
+#else
         map.Pins.Add(new Pin {
             Label = $"{pointOfInterest.Name}",
             Address = $"{pointOfInterest.Description}",
@@ -35,6 +45,7 @@ public partial class MapPage : ContentPage
 
         var mapSpan = new MapSpan(location, 0.01, 0.01);
         map.MoveToRegion(mapSpan);
+#endif
 
     }
 }

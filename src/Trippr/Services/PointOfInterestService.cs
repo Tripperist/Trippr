@@ -47,8 +47,8 @@ public class PointOfInterestService
 
     public  static async Task<IEnumerable<PointOfInterest>> GetHmdbPointsOfInterest(Microsoft.Maui.Devices.Sensors.Location location, double distanceFilter)
     {
-        //IList<string> statesList = new List<string> {"AZ", "CA", "LA", "NV", "OK", "OR", "TX", "WA" };
-        IList<string> statesList = new List<string> { "LA", "TX"};
+        IList<string> statesList = new List<string> {"AZ", "CA", "CO", "LA", "NM", "NV", "OK", "OR", "TX", "WA" };
+        //IList<string> statesList = new List<string> { "LA", "TX"};
         List<PointOfInterest> pointsOfInterest = new();
 
         foreach (var state in statesList)
