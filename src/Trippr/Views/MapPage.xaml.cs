@@ -31,7 +31,7 @@ public partial class MapPage : ContentPage
 #if WINDOWS
         // Launch the Bing Maps app
         // For more information see: https://learn.microsoft.com/en-us/windows/uwp/launch-resume/launch-maps-app
-        var uri = new Uri($"bingmaps:?collection=point.{location.Latitude}_{location.Longitude}_{Uri.EscapeUriString(pointOfInterest.Name)}&lvl=16");
+        var uri = new Uri($"bingmaps:?collection=point.{location.Latitude}_{location.Longitude}_{Uri.EscapeDataString(pointOfInterest.Name)}&lvl=16");
         var launcherOptions = new Windows.System.LauncherOptions();
         launcherOptions.TargetApplicationPackageFamilyName = "Microsoft.WindowsMaps_8wekyb3d8bbwe";
         var success = Windows.System.Launcher.LaunchUriAsync(uri, launcherOptions);
